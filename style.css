@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    box-sizing: border-box;
+    background: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 90px auto;
+    padding: 20px 30px;
+    max-width: 960px;
+    height: 600px;
+    flex: 1 2 960px  ;  
+    flex-wrap: wrap;
+  
+}
+
+
+
+
+
+.container-car{
+
+    box-sizing: border-box;
+    flex: 2 1 370px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 10px;  
+    height: 450px; 
+ 
+}
+
+.car{
+  box-sizing: border-box;  
+  max-width: 370px;
+  height: 450px;
+  flex: 1 2 370px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 35px 45px;
+}
+
+
+.car h1{
+    font-size: 2.25em;
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 45px;
+    
+}
+
+.car p{
+    font-size:15px;
+    font-family:'Lexend Deca', sans-serif;
+    color:rgb(224, 223, 223);
+    margin-bottom: 25px;
+    line-height: 1.5;
+    font-weight: 100;
+}
+
+.sedan{
+    background: rgb(209, 139, 8);
+    border-radius: 10px 0 0 10px;
+}
+
+.suvs{
+    background: rgb(14, 104, 92);
+}
+
+.luxury{
+    background: rgb(9, 71, 56);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.learn{
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    max-width: 120px;
+    height: 40px;
+    padding: 0 10px;
+
+   
+}
+
+.learn a {
+    text-align: center;
+    text-decoration: none;
+    font-size:15px;
+    font-family:'Lexend Deca', sans-serif;
+    font-weight: bold;
+}
+
+.sedan a{
+    color:rgb(209, 139, 8); 
+}
+
+.suvs a{
+    color: rgb(33, 116, 104);
+}
+
+.luxury a{
+    color: rgb(14, 104, 92);
+}
